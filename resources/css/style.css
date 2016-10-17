@@ -68,7 +68,8 @@ h3 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #fff;
+    color: #333;
+    font-weight: 400;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -156,11 +157,10 @@ a:active {
 /* ----- BUTTONS ----- */
 
 .btn:link,
-.btn:visited,
-input[type=submit] {
+.btn:visited {
     display: inline-block;
     padding: 10px 30px;
-    font-weight: 300;
+    font-weight: 900;
     text-decoration: none;
     border-radius: 200px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -171,32 +171,20 @@ input[type=submit] {
 .btn-full:visited,
 input[type=submit] {
     border: 1px solid #1e78f4;
-    color: #fff;
+    color: #333;
     margin-right: 15px;
-}
-
-input[type=submit] {
-    background-color: transparent;
-    color: #000;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #1e78f4;
-    color: #fff;
+    color: #333;
 }
 
 .btn:hover,
-.btn:active,
-input[type=submit]:hover,
-input[type=submit]:active {
+.btn:actives {
     border: 1px solid #1e78f4;
     background-color: #1e78f4;
-}
-
-input[type=submit]:hover,
-input[type=submit]:active {
-    color: #fff;
 }
 
 .btn-full:hover,
@@ -208,7 +196,7 @@ input[type=submit]:active {
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #1e78f4;
-    color: #fff;
+    color: #333;
     background-color: #1e78f4;
 }
 
@@ -222,30 +210,22 @@ input[type=submit]:active {
 /*----------------------------------*/
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg.png);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
-}
-
-.profile-picture {
-    height: 200px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    border-radius: 100px;
+    background-attachment: fixed; */
 }
 
 .hero-text-box {
     position: absolute;
+    font-size: 65%;
     top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    left: 65%;
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
 }
 
 .logo {
@@ -283,204 +263,10 @@ header {
     border-bottom: 2px solid #1e78f4;
 }
 
-
-/*----------------------------------*/
-
-
-/* ABOUT */
-
-
-/*----------------------------------*/
-
-.about-details .greetings {
-    // padding: 0 100px 0 100px;
-    margin-bottom: 40px;
-    text-align: justify;
-}
-
-
-/*----------------------------------*/
-
-
-/* PORTFOLIO */
-
-
-/*----------------------------------*/
-
-.portfolio-details {
-    padding: 0;
-}
-
-.portfolio-showcase {
-    list-style: none;
-    width: 90%;
-    margin-left: 5%;
-}
-
-.portfolio-showcase li {
-    display: block;
-    float: left;
-    width: 50%;
-    padding: 10px;
-}
-
-.portfolio-content {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-.portfolio-content img {
-    opacity: 0.5;
-    width: 100%;
-    height: auto;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.5s, opacity 0.5s;
-    transition: 0.5s, opacity 0.5s;
-}
-
-.portfolio-content img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.10);
-    transform: scale(1.10);
-}
-
-
-/*----------------------------------*/
-
-
-/* RESUME */
-
-
-/*----------------------------------*/
-
-.resume-content {
-    background-color: #eae8e8;
-}
-
-.steps-box {
-    margin-top: 30px;
-}
-.steps-box:first-child {
-    text-align: right;
-    padding-right: 10%;
-}
-
-.steps-box:last-child {
-    text-align: left;
-    padding-left: 3%;
-    margin-top: 30px;
-}
-
-.picture-screen {
-    width: 40%;
-}
-
-.working-steps {
-    margin-bottom: 50px;
-}
-
-.work-steps:last-of-type {
-    margin-bottom: 80px;
-}
-
-.working-steps div {
-    color: #1e78f4;
-    font-size: 150%;
-    height: 55px;
-    width: 55px;
-    border: 2px solid #1e78f4;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-right: 25px;
-    float: left;
-    padding: 5px;
-}
-
-.btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
-
-.btn-app img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-}
-
-
-/*----------------------------------*/
-
-
-/* INVOLVEMENTS */
-
-
-/*----------------------------------*/
-
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.org-feature {
-    margin-bottom: 5px;
-}
-
-
-/*----------------------------------*/
-
-
-/* CONTACT */
-
-
-/*----------------------------------*/
-
-.contact-form {
-    width: 80%;
-    margin: 0 auto;
-}
-
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 5px;
-    border-radius: 2px;
-    border: 1px solid #cccccc
-}
-
-textarea {
-    height: 100px;
-}
-
-*:focus {
-    outline: none;
-}
-
-
-/*----------------------------------*/
-
-
-/* FOOTER */
-
-
-/*----------------------------------*/
-
-footer {
-    background-color: #333;
-    font-size: 80%; 
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
 .social-links {
     list-style: none;
-    text-align: center;
+    text-align: left;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -490,15 +276,11 @@ footer {
     padding: 10px;
 }
 
-.social-links li:last-child {
-    margin: 0;
-}
-
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
     border: 0;
-    color: #999;
+    color: #333;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     font-size: 200%;
@@ -516,15 +298,13 @@ footer {
 }
 
 .ion-social-instagram:hover {
-    color: #e95950;
+    color: #cd486b;
 }
 
 .ion-social-linkedin:hover {
     color: #007bb5;
 }
 
-footer p {
-    color: #999;
-    text-align: center;
-    font-size: 90%;
+.ion-social-github:hover {
+    color: #000000;
 }
