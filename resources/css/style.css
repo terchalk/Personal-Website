@@ -121,24 +121,6 @@ h3 {
 }
 
 
-/* ----- LINKS ----- */
-
-a:link,
-a:visited {
-    color: #1e78f4;
-    text-decoration: none;
-    border-bottom: 1px solid #1e78f4;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
-}
-
-a:hover,
-a:active {
-    color: ;
-    border-bottom: 1px solid transparent;
-}
-
-
 /* ----- BUTTONS ----- */
 
 .btn:link,
@@ -195,22 +177,22 @@ input[type=submit] {
 /*----------------------------------*/
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed; */
+    background-attachment: fixed; 
 }
 
 .hero-text-box {
     position: absolute;
     font-size: 65%;
     top: 50%;
-    left: 65%;
-    -webkit-transform: translate(-50%, -40%);
-    transform: translate(-50%, -40%);
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .logo {
