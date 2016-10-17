@@ -18,6 +18,9 @@
     .picture-screen {
         width: 70%;
     }
+     .logo {
+        padding: 10px;
+    }
 }
 
 
@@ -34,28 +37,8 @@
         width: 80%;
         margin-left: 10%;
     }
-    .steps-box {
-        margin-top: 10px;
-        margin-left: -25px;
-    }
-    .steps-box:last-child {
-        margin-top: 10px;
-    }
-    .working-steps {
-        margin-bottom: 40px;
-    }
-    .working-steps:last-of-type {
-        margin-bottom: 60px;
-    }
-    .picture-screen {
-        width: 90;
-    }
-    .icon-small {
-        width: 17px;
-        margin-right: 10px;
-    }
-    .org-feature {
-        font-size: 90%;
+     .logo {
+        padding: 10px;
     }
 }
 
@@ -113,6 +96,10 @@
     .working-steps:last-of-type {
         margin-bottom: 20px;
     }
+    
+    .logo {
+        padding: 10px;
+    }
 }
 
 
@@ -123,4 +110,7 @@
         padding: 25px 0;
     }
     .contact-form {width: 100%;} 
+    .logo {
+        padding: 10px;
+    }
 }
