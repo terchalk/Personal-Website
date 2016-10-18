@@ -167,19 +167,10 @@ input[type=submit] {
     background-color: #1e78f4;
 }
 
-
-/*----------------------------------*/
-
-
-/* HEADER */
-
-
-/*----------------------------------*/
-
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/bg.png);
+    background-image: -webkit-linear-gradient(rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.3)), url(img/bg.png);
+    background-image: -webkit-linear-gradient(rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.3)), url(img/bg.png);
+    background-image: linear-gradient(rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.3)), url(img/bg.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -253,6 +244,7 @@ header {
     font-size: 200%;
 }
 
+
 .ion-social-facebook,
 .ion-social-instagram,
 .ion-social-linkedin {
@@ -274,4 +266,8 @@ header {
 
 .ion-social-github:hover {
     color: #000000;
+}
+
+.ion-social-skype:hover {
+    color: #00aff0;
 }
